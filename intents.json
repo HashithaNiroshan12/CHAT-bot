@@ -1,0 +1,54 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "age",
+         "patterns": ["how old","how old id jobby","what is your age","how old are you","age?"],
+         "responses": ["My owner Niro is 26 years old!","26 years!"],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["what is your name","what should I call you","whats your name?","who are you?"],
+         "responses": ["You can call me Jobby!","I'm Jobby","I', Jobby the assistant of Niro!"],
+         "context": [""]
+        },
+
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me","great","well"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","anyway!"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through job prediction list","what type of skills do you want to develop in your career!", "I help your future career" , "I can help your bright future" ],
+         "context": [""]
+        },
+        {"tag": "jobs",
+         "patterns": ["what is your job area", "job area?","Job category?" ],
+         "responses": ["I mainly focused on IT related jobs","IT jobs", "IT filed!"],
+         "context": [""]
+        },
+        {"tag": "skills-intern",
+          "patterns": ["Can I know, IT intern skills","As a fresh IT graduate, what are the skills to improve?", "skills!" ],
+          "responses": ["Basically, you need to improve basic knowledge of java, sql, data-structure, algorithms and etc!", "Java, SQL, DS, Algo likewise!", "Basic of java,sql,data structure, algorithms"],
+          "context": [""]
+        },
+        {"tag": "skills-SE",
+          "patterns": ["what are the skills of software engineer?","software engineer skills","skills","skills of software engineer"],
+          "responses": ["computer programming and coding,software development,OOP, software testing and debugging and soon!"],
+          "context": []
+        }
+]
+}
